@@ -1,0 +1,88 @@
+{
+  "user": [
+    {
+      "id": 1
+    },
+    {
+      "firstName": "Bhanu",
+      "lastName": "Rai",
+      "email": "bhanur@gmail.com",
+      "number": 9827397669,
+      "address": "Chandigarh",
+      "record": "",
+      "password": "Bhanu@123",
+      "cnf_pwd": "Bhanu@123",
+      "id": 2
+    },
+    {
+      "firstName": "sandip",
+      "lastName": "Verma",
+      "email": "s@v.com",
+      "number": 32145698,
+      "address": "fv",
+      "record": "faizal ki maari thi ek baar tb se leke aaj tk koi utna mzaa ni de paya",
+      "password": "a",
+      "id": 3
+    }
+  ],
+  "Upcoming": [
+    {
+      "date": "27 AUG 2019, 09:00am",
+      "name": "The Hound, Khal Drogo",
+      "address": "South Of the Wall",
+      "status": "Pending"
+    },
+    {
+      "date": "17 APR 2019, 09:00am",
+      "name": "Jon Snow, Targerian",
+      "address": "King in the North",
+      "status": "On the Way"
+    },
+    {
+      "date": "27 AUG 2019, 09:00am",
+      "name": "The Hound, Khal Drogo",
+      "address": "South Of the Wall",
+      "status": "Pending"
+    }
+  ],
+  "Past": [
+    {
+      "date": "17 APR 2019, 09:00am",
+      "name": "Jon Snow, Targerian",
+      "address": "King in the North",
+      "status": "Completed"
+    },
+    {
+      "date": "27 AUG 2019, 09:00am",
+      "name": "The Hound, Khal Drogo",
+      "address": "South Of the Wall",
+      "status": "Completed"
+    }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "title": "collapsible content #1 ?",
+      "content": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. ",
+      "status": "completed"
+    },
+    {
+      "id": "2",
+      "title": "collapsible content #2 ?",
+      "content": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. ",
+      "status": "completed"
+    },
+    {
+      "id": "3",
+      "title": "collapsible content #3?",
+      "content": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. ",
+      "status": "completed"
+    },
+    {
+      "id": "4",
+      "title": "collapsible content #4 ?",
+      "content": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. ",
+      "status": "completed"
+    }
+  ]
+}

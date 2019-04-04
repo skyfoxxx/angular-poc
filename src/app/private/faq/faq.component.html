@@ -1,0 +1,17 @@
+<div class="container register-form">
+    <div class="center form">
+      <div class="row" *ngIf="cflag">
+        <ul class="collapsible">
+          <li *ngFor="let item1 of data">
+            <div class="collapsible-header">
+              <i class="material-icons">filter_drama</i>{{ item1.title }}
+            </div>
+            <div class="collapsible-body">
+              <span>{{ item1.content }}</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,24 @@
+<div class="container">
+      <div class="container-fluid">
+          <ul class="nav">
+              <li (click)="showUpcoming()"><a [ngClass]="{'active': upcoming === true}">UPCOMING</a></li>
+              <li (click)="showPast()"><a>PAST</a></li>
+          </ul>
+      </div>
+<div *ngIf="upcoming else past" class="col-sm-12"> 
+  <div class="booking" *ngFor="let booking of upcomingBooking">
+      <span class="col-sm-6">{{booking.date}}</span>
+      <span class="status" [ngStyle]="{'color':booking.status === 'Pending' ? 'red' : 'blue' }">{{booking.status}}</span>
+      <h3>{{booking.name}}</h3>
+      <span>{{booking.address}}</span>
+  </div>
+</div>
+<ng-template #past>
+  <div class="booking" *ngFor="let booking of pastBooking">
+      <span class="col-sm-6">{{booking.date}}</span>
+      <span class="status" [ngStyle]="{'color':booking.status === 'Completed' ? 'green' : 'blue' }">{{booking.status}}</span>
+      <h3>{{booking.name}}</h3>
+      <span>{{booking.address}}</span>
+  </div>
+</ng-template>
+</div>

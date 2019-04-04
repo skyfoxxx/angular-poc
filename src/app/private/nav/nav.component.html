@@ -1,0 +1,12 @@
+<ul>
+    <li class="dropdown">
+      <a class="dropbtn" id="dropbtn">{{name}}</a>
+      <div class="dropdown-content">
+        <a [routerLink]="['private/profile']" routerLinkActive="router-link-active" >Profile</a>
+        <a [routerLink]="['private/booking']" routerLinkActive="router-link-active" >My Bookings {{count}}</a>
+        <a [routerLink]="['private/faq']" routerLinkActive="router-link-active" >FAQ's</a>
+        <a [routerLink]="" routerLinkActive="router-link-active"  (click) = logout()>Logout</a>
+      </div>
+    </li>
+  </ul>
+
